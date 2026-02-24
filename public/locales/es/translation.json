@@ -1,0 +1,93 @@
+{
+  "header": {
+    "home": "Inicio",
+    "about": "Quiénes Somos",
+    "services": "Servicios",
+    "membership": "Membresía",
+    "hub": "Hub",
+    "why": "Por qué ASSESE",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "ASSESE: Tu punto de entrada a Milán para crecer en Italia y expandirte en Europa.",
+    "subtitle": "Somos un acelerador ágil y transversal: apoyamos a empresas italianas e internacionales con servicios concretos de entrada de negocios, internacionalización y domiciliación, con acceso a un espacio operativo estratégico en Porta Genova.",
+    "cta1": "Reserva una llamada",
+    "cta2": "Descubre ASSESE HUB"
+  },
+  "about": {
+    "title": "Quiénes Somos",
+    "subtitle": "Un acelerador ágil, no un coworking.",
+    "paragraph": "ASSESE - Asociación para el Desarrollo Económico y Social Europeo – nació para ayudar a empresas, startups y profesionales a transformar una idea en una presencia real en el mercado: en Italia y en el contexto europeo. Operamos de manera transversal (diseño, moda, comercio, servicios, tecnología) y trabajamos con un enfoque práctico: conexiones, eventos, competencias, espacio físico y apoyo operativo."
+  },
+  "services": {
+    "title": "Qué Hacemos (Servicios)",
+    "box1_title": "Entrada de Negocios en Italia (Milán)",
+    "box1_li1": "Domiciliación de empresas en Milán",
+    "box1_li2": "Gestión de correspondencia y presencia profesional",
+    "box1_li3": "Soporte administrativo y fiscal (con socios)",
+    "box1_li4": "Orientación para el inicio y la operatividad",
+    "box1_li5": "Consultoría sobre subvenciones y financiación",
+    "box1_li6": "Aterrizaje fácil",
+    "box2_title": "Internacionalización y Crecimiento en Europa",
+    "box2_li1": "Rutas prácticas para la expansión transfronteriza",
+    "box2_li2": "Eventos B2B y networking",
+    "box2_li3": "Talleres temáticos (exportación, comercio electrónico, contratos, fiscalidad)",
+    "box2_li4": "Conexiones internacionales (Rumania, España)",
+    "box3_title": "ASSESE HUB – Espacio Operativo en Porta Genova",
+    "box3_li1": "140m² de espacio abierto modular",
+    "box3_li2": "3 escaparates a la calle",
+    "box3_li3": "Altura aprox. 5m",
+    "box3_li4": "Adecuado para showrooms temporales, talleres, sesiones de fotos, presentaciones, eventos de negocios"
+  },
+  "membership": {
+    "title": "Programa de Aterrizaje de Negocios (Membresía)",
+    "subtitle": "No es solo una dirección: es un paquete operativo para entrar en Milán y activar tu presencia.",
+    "plan1_title": "BÁSICO",
+    "plan1_li1": "Domiciliación de empresas",
+    "plan1_li2": "Gestión de correo",
+    "plan1_li3": "Acceso al HUB: 2 horas/mes",
+    "plan1_li4": "Acceso: 1 evento de networking/mes",
+    "plan2_title": "PRO",
+    "plan2_li1": "Todo lo de BÁSICO",
+    "plan2_li2": "Acceso al HUB: 1 día/mes",
+    "plan2_li3": "Acceso completo a eventos de networking",
+    "plan2_li4": "Perfil de la empresa en la red ASSESE (listado)",
+    "plan3_title": "CRECIMIENTO",
+    "plan3_li1": "Todo lo de PRO",
+    "plan3_li2": "Acceso al HUB: 4 días/mes",
+    "plan3_li3": "1 sesión estratégica trimestral (con socio)",
+    "plan3_li4": "Introducciones específicas en la red local (según disponibilidad)",
+    "cta": "Solicita detalles y disponibilidad"
+  },
+  "hub": {
+    "title": "Nuestro Espacio Operativo",
+    "subtitle": "Alquiler a corto plazo ASSESE HUB (Porta Genova – Milán)",
+    "description": "Soluciones flexibles para quienes necesitan un espacio profesional con alta visibilidad:",
+    "item1": "1 día",
+    "item2": "3 días",
+    "item3": "1 semana",
+    "item4": "1 mes",
+    "ideal_for": "Ideal para: showrooms, pop-ups, talleres, sesiones de fotos, eventos corporativos, presentaciones B2B.",
+    "cta": "Reserva una visita"
+  },
+  "why": {
+    "title": "Por qué ASSESE",
+    "li1": "Una única base en Milán para operar, reunirse y presentar",
+    "li2": "Domiciliación + espacio físico + networking, en el mismo ecosistema",
+    "li3": "Enfoque ágil: tiempos rápidos, soluciones prácticas, contactos reales",
+    "li4": "Adecuado para empresas internacionales y pymes italianas que quieren crecer"
+  },
+  "contact": {
+    "title": "Contacto",
+    "p1": "ASSESE - Milán (Porta Genova)",
+    "p2": "Correo electrónico: office@assese.eu",
+    "p3": "Teléfono/WhatsApp: +39 389 286 5881",
+    "p4": "Visitas con cita previa."
+  },
+  "footer": {
+    "copy": "© 2024 ASSESE Milano. Todos los derechos reservados.",
+    "email": "Correo electrónico: office@assese.eu",
+    "phone": "Teléfono/WhatsApp: +39 389 286 5881",
+    "visits": "Visitas con cita previa."
+  }
+}

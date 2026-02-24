@@ -1,0 +1,93 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "Chi Siamo",
+    "services": "Servizi",
+    "membership": "Membership",
+    "hub": "Hub",
+    "why": "Perché ASSESE",
+    "contact": "Contatti"
+  },
+  "hero": {
+    "title": "ASSESE: il tuo punto di ingresso a Milano per crescere in Italia ed espanderti in Europa.",
+    "subtitle": "Siamo un acceleratore agile e trasversale: supportiamo imprese italiane e internazionali con servizi concreti di business entry, internazionalizzazione e domiciliazione, con accesso a uno spazio operativo strategico a Porta Genova.",
+    "cta1": "Prenota una call",
+    "cta2": "Scopri ASSESE HUB"
+  },
+  "about": {
+    "title": "Chi Siamo",
+    "subtitle": "Un acceleratore agile, non un coworking.",
+    "paragraph": "ASSESE - Associazione per lo Sviluppo Economico e Sociale Europeo – nasce per aiutare aziende, startup e professionisti a trasformare un'idea in presenza reale sul mercato: in Italia e nel contesto europeo. Operiamo in modo trasversale (design, fashion, trade, servizi, tecnologia) e lavoriamo con un approccio pratico: connessioni, eventi, competenze, spazio fisico e supporto operativo."
+  },
+  "services": {
+    "title": "Cosa Facciamo (Servizi)",
+    "box1_title": "Business Entry Italia (Milano)",
+    "box1_li1": "Domiciliazione aziendale a Milano",
+    "box1_li2": "Gestione corrispondenza e presenza professionale",
+    "box1_li3": "Supporto amministrativo e fiscale (con partner)",
+    "box1_li4": "Orientamento per avvio e operatività",
+    "box1_li5": "Consulenza su sovvenzioni e finanziamenti",
+    "box1_li6": "Easy landing",
+    "box2_title": "Internazionalizzazione e crescita in Europa",
+    "box2_li1": "Percorsi pratici per espansione cross-border",
+    "box2_li2": "Eventi B2B e networking",
+    "box2_li3": "Workshop tematici (export, e-commerce, contratti, fiscalità)",
+    "box2_li4": "Connessioni internazionali (Romania, Spagna)",
+    "box3_title": "ASSESE HUB – Spazio operativo a Porta Genova",
+    "box3_li1": "140mq open space modulare",
+    "box3_li2": "3 vetrine su strada",
+    "box3_li3": "Altezza circa 5m",
+    "box3_li4": "Adatto per showroom temporanei, workshop, shooting, presentazioni, eventi business"
+  },
+  "membership": {
+    "title": "Business Landing Program (Membership)",
+    "subtitle": "Non è solo un indirizzo: è un pacchetto operativo per entrare a Milano e attivare la tua presenza.",
+    "plan1_title": "BASIC",
+    "plan1_li1": "Domiciliazione aziendale",
+    "plan1_li2": "Gestione posta",
+    "plan1_li3": "Accesso HUB: 2 ore/mese",
+    "plan1_li4": "Accesso: 1 evento networking/mese",
+    "plan2_title": "PRO",
+    "plan2_li1": "Tutto BASIC",
+    "plan2_li2": "Accesso HUB: 1 giorno/mese",
+    "plan2_li3": "Accesso completo eventi networking",
+    "plan2_li4": "Profilo azienda nel network ASSESE (listing)",
+    "plan3_title": "GROWTH",
+    "plan3_li1": "Tutto PRO",
+    "plan3_li2": "Accesso HUB: 4 giorni/mese",
+    "plan3_li3": "1 sessione strategica trimestrale (con partner)",
+    "plan3_li4": "Introduzioni mirate nella rete locale (su disponibilità)",
+    "cta": "Richiedi dettagli e disponibilità"
+  },
+  "hub": {
+    "title": "Il Nostro Spazio Operativo",
+    "subtitle": "Affitto breve ASSESE HUB (Porta Genova – Milano)",
+    "description": "Soluzioni flessibili per chi ha bisogno di spazio professionale ad alta visibilità:",
+    "item1": "1 giorno",
+    "item2": "3 giorni",
+    "item3": "1 settimana",
+    "item4": "1 mese",
+    "ideal_for": "Ideale per: showroom, pop-up, workshop, shooting, eventi aziendali, presentazioni B2B.",
+    "cta": "Prenota una visita"
+  },
+  "why": {
+    "title": "Perché ASSESE",
+    "li1": "Un'unica base a Milano per operare, incontrare e presentare",
+    "li2": "Domiciliazione + spazio fisico + networking, nello stesso ecosistema",
+    "li3": "Approccio agile: tempi rapidi, soluzioni pratiche, contatti reali",
+    "li4": "Adatto a imprese internazionali e PMI italiane che vogliono crescere"
+  },
+  "contact": {
+    "title": "Contatti",
+    "p1": "ASSESE - Milano (Porta Genova)",
+    "p2": "Email: office@assese.eu",
+    "p3": "Phone/WhatsApp: 00393892865881",
+    "p4": "Visite su appuntamento."
+  },
+  "footer": {
+    "copy": "© 2024 ASSESE Milano. Tutti i diritti riservati.",
+    "email": "Email: office@assese.eu",
+    "phone": "Phone/WhatsApp: 00393892865881",
+    "visits": "Visite su appuntamento."
+  }
+}
