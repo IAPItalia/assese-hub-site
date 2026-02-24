@@ -12,7 +12,7 @@ export const Hero = () => {
         Replace 'hero-background.jpg' in the 'public/images' folder with your desired hero background image.
         ==================================================================
       */}
-      <div className="text-center bg-black/45 md:bg-black/70 backdrop-blur-sm p-6 md:p-10 rounded-lg max-w-4xl mx-auto">
+      <div className="text-center bg-black bg-opacity-50 p-6 md:p-10 rounded-lg max-w-4xl mx-auto">
         <h1 className="text-3xl md:text-5xl font-bold mb-4">{t('hero.title')}</h1>
         <p className="text-lg md:text-xl mb-8">{t('hero.subtitle')}</p>
         <div className="flex flex-col md:flex-row items-center justify-center gap-4">

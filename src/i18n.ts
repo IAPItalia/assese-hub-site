@@ -65,15 +65,25 @@ const resources = {
         "cta": "Richiedi dettagli e disponibilità"
       },
       "hub": {
-        "title": "Affitto Spazio (Hub Only)",
-        "subtitle": "Affitto breve ASSESE HUB (Porta Genova – Milano)",
-        "description": "Soluzioni flessibili per chi ha bisogno di spazio professionale ad alta visibilità:",
-        "item1": "1 giorno",
-        "item2": "3 giorni",
-        "item3": "1 settimana",
-        "item4": "1 mese",
-        "ideal_for": "Ideale per: showroom, pop-up, workshop, shooting, eventi aziendali, presentazioni B2B.",
-        "cta": "Prenota una visita"
+        "main_title": "Affitto Spazio (Hub Only)",
+        "main_subtitle": "Soluzioni flessibili per chi ha bisogno di spazio professionale ad alta visibilità, ideale per showroom, pop-up, workshop, shooting, eventi aziendali, e presentazioni B2B.",
+        "cta": "Prenota una visita",
+        "furnished": {
+          "title": "Mobilat",
+          "description": "Spazio pronto all'uso, completamente arredato per incontri di lavoro, consulenze o come base operativa temporanea."
+        },
+        "unfurnished": {
+          "title": "Nemobilat",
+          "description": "Tela bianca da personalizzare secondo le tue esigenze, ideale per shooting fotografici, workshop creativi o eventi su misura."
+        },
+        "showroom": {
+          "title": "Showroom",
+          "description": "Spazio espositivo con vetrine su strada per presentare i tuoi prodotti e collezioni in una zona strategica di Milano."
+        },
+        "events": {
+          "title": "Eventi",
+          "description": "Location versatile per eventi di networking, lanci di prodotto, presentazioni aziendali e incontri B2B."
+        }
       },
       "why": {
         "title": "Perché ASSESE",
@@ -86,11 +96,13 @@ const resources = {
         "title": "Contatti",
         "p1": "ASSESE - Milano (Porta Genova)",
         "p2": "Email: office@assese.eu",
+        "p3": "Telefono: 00393892865881",
         "p4": "Visite su appuntamento."
       },
       "footer": {
         "copy": "© 2024 ASSESE Milano. Tutti i diritti riservati.",
         "email": "Email: office@assese.eu",
+        "phone": "Telefono: 00393892865881",
         "visits": "Visite su appuntamento."
       },
       "availability": {
@@ -161,15 +173,25 @@ const resources = {
         "cta": "Request details and availability"
       },
       "hub": {
-        "title": "Hub Rental (Hub Only)",
-        "subtitle": "Short-term rental ASSESE HUB (Porta Genova – Milan)",
-        "description": "Flexible solutions for those who need a professional space with high visibility:",
-        "item1": "1 day",
-        "item2": "3 days",
-        "item3": "1 week",
-        "item4": "1 month",
-        "ideal_for": "Ideal for: showrooms, pop-ups, workshops, shootings, corporate events, B2B presentations.",
-        "cta": "Book a Visit"
+        "main_title": "Hub Rental (Hub Only)",
+        "main_subtitle": "Flexible solutions for those who need a professional space with high visibility, ideal for showrooms, pop-ups, workshops, shootings, corporate events, and B2B presentations.",
+        "cta": "Book a Visit",
+        "furnished": {
+          "title": "Furnished",
+          "description": "Ready-to-use space, fully furnished for business meetings, consultations, or as a temporary operational base."
+        },
+        "unfurnished": {
+          "title": "Unfurnished",
+          "description": "A blank canvas to customize according to your needs, ideal for photo shoots, creative workshops, or tailor-made events."
+        },
+        "showroom": {
+          "title": "Showroom",
+          "description": "Exhibition space with street-front windows to present your products and collections in a strategic area of Milan."
+        },
+        "events": {
+          "title": "Events",
+          "description": "Versatile location for networking events, product launches, corporate presentations, and B2B meetings."
+        }
       },
       "why": {
         "title": "Why ASSESE",
@@ -182,11 +204,13 @@ const resources = {
         "title": "Contact",
         "p1": "ASSESE - Milan (Porta Genova)",
         "p2": "Email: office@assese.eu",
+        "p3": "Phone: 00393892865881",
         "p4": "Visits by appointment."
       },
       "footer": {
         "copy": "© 2024 ASSESE Milano. All rights reserved.",
         "email": "Email: office@assese.eu",
+        "phone": "Phone: 00393892865881",
         "visits": "Visits by appointment."
       },
       "availability": {
@@ -257,15 +281,25 @@ const resources = {
         "cta": "Solicita detalles y disponibilidad"
       },
       "hub": {
-        "title": "Alquiler de Espacio (Solo Hub)",
-        "subtitle": "Alquiler a corto plazo ASSESE HUB (Porta Genova – Milán)",
-        "description": "Soluciones flexibles para quienes necesitan un espacio profesional con alta visibilidad:",
-        "item1": "1 día",
-        "item2": "3 días",
-        "item3": "1 semana",
-        "item4": "1 mes",
-        "ideal_for": "Ideal para: showrooms, pop-ups, talleres, sesiones de fotos, eventos corporativos, presentaciones B2B.",
-        "cta": "Reserva una visita"
+        "main_title": "Alquiler de Espacio (Solo Hub)",
+        "main_subtitle": "Soluciones flexibles para quienes necesitan un espacio profesional con alta visibilidad, ideal para showrooms, pop-ups, talleres, sesiones de fotos, eventos corporativos y presentaciones B2B.",
+        "cta": "Reserva una visita",
+        "furnished": {
+          "title": "Amueblado",
+          "description": "Espacio listo para usar, completamente amueblado para reuniones de negocios, consultorías o como base de operaciones temporal."
+        },
+        "unfurnished": {
+          "title": "Sin amueblar",
+          "description": "Un lienzo en blanco para personalizar según tus necesidades, ideal para sesiones de fotos, talleres creativos o eventos a medida."
+        },
+        "showroom": {
+          "title": "Showroom",
+          "description": "Espacio de exposición con escaparates a la calle para presentar tus productos y colecciones en una zona estratégica de Milán."
+        },
+        "events": {
+          "title": "Eventos",
+          "description": "Ubicación versátil para eventos de networking, lanzamientos de productos, presentaciones corporativas y reuniones B2B."
+        }
       },
       "why": {
         "title": "Por qué ASSESE",
@@ -278,11 +312,13 @@ const resources = {
         "title": "Contacto",
         "p1": "ASSESE - Milán (Porta Genova)",
         "p2": "Correo electrónico: office@assese.eu",
+        "p3": "Teléfono: 00393892865881",
         "p4": "Visitas con cita previa."
       },
       "footer": {
         "copy": "© 2024 ASSESE Milano. Todos los derechos reservados.",
         "email": "Correo electrónico: office@assese.eu",
+        "phone": "Teléfono: 00393892865881",
         "visits": "Visitas con cita previa."
       },
       "availability": {
@@ -353,15 +389,25 @@ const resources = {
         "cta": "Details und Verfügbarkeit anfragen"
       },
       "hub": {
-        "title": "Hub-Miete (nur Hub)",
-        "subtitle": "Kurzzeitmiete ASSESE HUB (Porta Genova – Mailand)",
-        "description": "Flexible Lösungen für diejenigen, die einen professionellen Raum mit hoher Sichtbarkeit benötigen:",
-        "item1": "1 Tag",
-        "item2": "3 Tage",
-        "item3": "1 Woche",
-        "item4": "1 Monat",
-        "ideal_for": "Ideal für: Showrooms, Pop-ups, Workshops, Shootings, Firmenveranstaltungen, B2B-Präsentationen.",
-        "cta": "Besuch buchen"
+        "main_title": "Hub-Miete (nur Hub)",
+        "main_subtitle": "Flexible Lösungen für diejenigen, die einen professionellen Raum mit hoher Sichtbarkeit benötigen, ideal für Showrooms, Pop-ups, Workshops, Shootings, Firmenveranstaltungen und B2B-Präsentationen.",
+        "cta": "Besuch buchen",
+        "furnished": {
+          "title": "Möbliert",
+          "description": "Gebrauchsfertiger Raum, komplett möbliert für Geschäftstreffen, Beratungen oder als temporäre operative Basis."
+        },
+        "unfurnished": {
+          "title": "Unmöbliert",
+          "description": "Eine leere Leinwand, die Sie nach Ihren Bedürfnissen gestalten können, ideal für Fotoshootings, kreative Workshops oder maßgeschneiderte Veranstaltungen."
+        },
+        "showroom": {
+          "title": "Showroom",
+          "description": "Ausstellungsraum mit straßenseitigen Schaufenstern zur Präsentation Ihrer Produkte und Kollektionen in einem strategischen Bereich von Mailand."
+        },
+        "events": {
+          "title": "Veranstaltungen",
+          "description": "Vielseitiger Ort für Networking-Veranstaltungen, Produkteinführungen, Unternehmenspräsentationen und B2B-Meetings."
+        }
       },
       "why": {
         "title": "Warum ASSESE",
@@ -374,11 +420,13 @@ const resources = {
         "title": "Kontakt",
         "p1": "ASSESE - Mailand (Porta Genova)",
         "p2": "E-Mail: office@assese.eu",
+        "p3": "Telefon: 00393892865881",
         "p4": "Besuche nach Vereinbarung."
       },
       "footer": {
         "copy": "© 2024 ASSESE Milano. Alle Rechte vorbehalten.",
         "email": "E-Mail: office@assese.eu",
+        "phone": "Telefon: 00393892865881",
         "visits": "Besuche nach Vereinbarung."
       },
       "availability": {
@@ -449,15 +497,25 @@ const resources = {
         "cta": "Demander les détails et la disponibilité"
       },
       "hub": {
-        "title": "Location de hub (Hub uniquement)",
-        "subtitle": "Location à court terme ASSESE HUB (Porta Genova – Milan)",
-        "description": "Solutions flexibles pour ceux qui ont besoin d'un espace professionnel avec une grande visibilité :",
-        "item1": "1 jour",
-        "item2": "3 jours",
-        "item3": "1 semaine",
-        "item4": "1 mois",
-        "ideal_for": "Idéal pour : showrooms, pop-ups, ateliers, tournages, événements d'entreprise, présentations B2B.",
-        "cta": "Réserver une visite"
+        "main_title": "Location de hub (Hub uniquement)",
+        "main_subtitle": "Solutions flexibles pour ceux qui ont besoin d'un espace professionnel avec une grande visibilité, idéal pour les showrooms, pop-ups, ateliers, tournages, événements d'entreprise et présentations B2B.",
+        "cta": "Réserver une visite",
+        "furnished": {
+          "title": "Meublé",
+          "description": "Espace prêt à l'emploi, entièrement meublé pour les réunions d'affaires, les consultations ou comme base opérationnelle temporaire."
+        },
+        "unfurnished": {
+          "title": "Non meublé",
+          "description": "Une toile vierge à personnaliser selon vos besoins, idéale pour les séances photo, les ateliers créatifs ou les événements sur mesure."
+        },
+        "showroom": {
+          "title": "Showroom",
+          "description": "Espace d'exposition avec vitrines sur rue pour présenter vos produits et collections dans un quartier stratégique de Milan."
+        },
+        "events": {
+          "title": "Événements",
+          "description": "Lieu polyvalent pour les événements de réseautage, les lancements de produits, les présentations d'entreprise et les réunions B2B."
+        }
       },
       "why": {
         "title": "Pourquoi ASSESE",
@@ -470,11 +528,13 @@ const resources = {
         "title": "Contact",
         "p1": "ASSESE - Milan (Porta Genova)",
         "p2": "E-mail : office@assese.eu",
+        "p3": "Téléphone : 00393892865881",
         "p4": "Visites sur rendez-vous."
       },
       "footer": {
         "copy": "© 2024 ASSESE Milano. Tous droits réservés.",
         "email": "E-mail : office@assese.eu",
+        "phone": "Téléphone : 00393892865881",
         "visits": "Visites sur rendez-vous."
       },
       "availability": {
@@ -545,15 +605,25 @@ const resources = {
         "cta": "Cere detalii și disponibilitate"
       },
       "hub": {
-        "title": "Închiriere hub (doar hub)",
-        "subtitle": "Închiriere pe termen scurt ASSESE HUB (Porta Genova – Milano)",
-        "description": "Soluții flexibile pentru cei care au nevoie de un spațiu profesional cu vizibilitate ridicată:",
-        "item1": "1 zi",
-        "item2": "3 zile",
-        "item3": "1 săptămână",
-        "item4": "1 lună",
-        "ideal_for": "Ideal pentru: showroom-uri, pop-up-uri, ateliere, ședințe foto, evenimente corporate, prezentări B2B.",
-        "cta": "Rezervă o vizită"
+        "main_title": "Închiriere hub (doar hub)",
+        "main_subtitle": "Soluții flexibile pentru cei care au nevoie de un spațiu profesional cu vizibilitate ridicată, ideal pentru showroom-uri, pop-up-uri, ateliere, ședințe foto, evenimente corporate și prezentări B2B.",
+        "cta": "Rezervă o vizită",
+        "furnished": {
+          "title": "Mobilat",
+          "description": "Spațiu gata de utilizare, complet mobilat pentru întâlniri de afaceri, consultanță sau ca bază operațională temporară."
+        },
+        "unfurnished": {
+          "title": "Nemobilat",
+          "description": "O pânză albă de personalizat în funcție de nevoile dvs., ideală pentru ședințe foto, ateliere creative sau evenimente personalizate."
+        },
+        "showroom": {
+          "title": "Showroom",
+          "description": "Spațiu de expoziție cu vitrine la stradă pentru a vă prezenta produsele și colecțiile într-o zonă strategică din Milano."
+        },
+        "events": {
+          "title": "Evenimente",
+          "description": "Locație versatilă pentru evenimente de networking, lansări de produse, prezentări corporate și întâlniri B2B."
+        }
       },
       "why": {
         "title": "De ce ASSESE",
@@ -566,11 +636,13 @@ const resources = {
         "title": "Contact",
         "p1": "ASSESE - Milano (Porta Genova)",
         "p2": "E-mail: office@assese.eu",
+        "p3": "Telefon: la cerere",
         "p4": "Vizite pe bază de programare."
       },
       "footer": {
         "copy": "© 2024 ASSESE Milano. Toate drepturile rezervate.",
         "email": "E-mail: office@assese.eu",
+        "phone": "Telefon: la cerere",
         "visits": "Vizite pe bază de programare."
       },
       "availability": {
