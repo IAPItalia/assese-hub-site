@@ -11,6 +11,7 @@ import { Services } from './components/Services';
 import { Membership } from './components/Membership';
 import { Hub } from './components/Hub';
 import { Why } from './components/Why';
+import { Availability } from './components/Availability';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 
@@ -24,6 +25,7 @@ export default function App() {
         <Services />
         <Membership />
         <Hub />
+        <Availability />
         <Why />
         <Contact />
       </main>

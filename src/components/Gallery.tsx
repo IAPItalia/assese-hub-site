@@ -1,10 +1,15 @@
 import React from 'react';
 
+// ==================================================================
+// INSTRUCTIONS FOR ADMIN:
+// To change the gallery images, replace the files in the 'public/images' folder.
+// The required filenames are: gallery-1.jpg, gallery-2.jpg, gallery-3.jpg, gallery-4.jpg
+// ==================================================================
 const images = [
-  { src: 'https://picsum.photos/seed/picsum/800/600', alt: 'ASSESE Hub - Main Space' },
-  { src: 'https://picsum.photos/seed/picsum2/800/600', alt: 'ASSESE Hub - Meeting Area' },
-  { src: 'https://picsum.photos/seed/picsum3/800/600', alt: 'ASSESE Hub - Showcase' },
-  { src: 'https://picsum.photos/seed/picsum4/800/600', alt: 'ASSESE Hub - Event' },
+  { src: `${import.meta.env.BASE_URL}images/gallery-1.jpg`, alt: 'ASSESE Hub - Main Space' },
+  { src: `${import.meta.env.BASE_URL}images/gallery-2.jpg`, alt: 'ASSESE Hub - Meeting Area' },
+  { src: `${import.meta.env.BASE_URL}images/gallery-3.jpg`, alt: 'ASSESE Hub - Showcase' },
+  { src: `${import.meta.env.BASE_URL}images/gallery-4.jpg`, alt: 'ASSESE Hub - Event' },
 ];
 
 export const Gallery = () => {

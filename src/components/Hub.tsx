@@ -1,7 +1,7 @@
 import React from 'react';
 import { Gallery } from './Gallery';
 import { useTranslation } from 'react-i18next';
-import { AvailabilityCalendar } from './Calendar';
+
 
 export const Hub = () => {
   const { t } = useTranslation();
@@ -19,7 +19,7 @@ export const Hub = () => {
         </div>
         <p className="text-center text-gray-600 mt-8">{t('hub.ideal_for')}</p>
         <Gallery />
-        <AvailabilityCalendar />
+        
         <div className="text-center mt-10">
           <a href="#contact" className="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full transition duration-300">{t('hub.cta')}</a>
         </div>

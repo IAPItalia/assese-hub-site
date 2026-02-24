@@ -18,7 +18,13 @@ export const Why = () => {
             </ul>
           </div>
           <div>
-            <img src="https://picsum.photos/600/400" alt="ASSESE Workspace" className="rounded-lg shadow-lg"/>
+            {/* 
+              ==================================================================
+              INSTRUCTIONS FOR ADMIN:
+              Replace 'why-assese.jpg' in the 'public/images' folder with your desired image.
+              ==================================================================
+            */}
+            <img src={`${import.meta.env.BASE_URL}images/why-assese.jpg`} alt="ASSESE Workspace" className="rounded-lg shadow-lg"/>
           </div>
         </div>
       </div>

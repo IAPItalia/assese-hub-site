@@ -17,6 +17,7 @@ export const Header = () => {
       <Link to="membership" smooth={true} duration={500} className="block md:inline-block px-4 py-2 md:py-0 cursor-pointer" onClick={() => setIsOpen(false)}>{t('header.membership')}</Link>
       <Link to="hub" smooth={true} duration={500} className="block md:inline-block px-4 py-2 md:py-0 cursor-pointer" onClick={() => setIsOpen(false)}>{t('header.hub')}</Link>
       <Link to="why" smooth={true} duration={500} className="block md:inline-block px-4 py-2 md:py-0 cursor-pointer" onClick={() => setIsOpen(false)}>{t('header.why')}</Link>
+      <Link to="availability" smooth={true} duration={500} className="block md:inline-block px-4 py-2 md:py-0 cursor-pointer" onClick={() => setIsOpen(false)}>{t('header.availability')}</Link>
       <Link to="contact" smooth={true} duration={500} className="block md:inline-block px-4 py-2 md:py-0 cursor-pointer" onClick={() => setIsOpen(false)}>{t('header.contact')}</Link>
     </>
   );
