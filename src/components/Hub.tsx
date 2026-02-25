@@ -98,10 +98,19 @@ export const Hub = () => {
 
     React.useEffect(() => {
       if (!emblaApi) return;
-      onSelect();
-      emblaApi.on('select', onSelect);
-      return () => emblaApi.off('select', onSelect);
-    }, [emblaApi, onSelect]);
+
+      const onSelectEvent = () => {
+        setCanScrollPrev(emblaApi.canScrollPrev());
+        setCanScrollNext(emblaApi.canScrollNext());
+      };
+
+      onSelectEvent();
+      emblaApi.on('select', onSelectEvent);
+
+      return () => {
+        emblaApi.off('select', onSelectEvent);
+      };
+    }, [emblaApi]);
 
     const { title, description, images } = hubData[activeTab];
     return (
