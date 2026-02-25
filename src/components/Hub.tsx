@@ -1,5 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
+import { GetInTouchCta } from './GetInTouchCta';
+import useEmblaCarousel from 'embla-carousel-react';
+import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 // ==================================================================
 // INSTRUCTIONS FOR ADMIN:
@@ -74,21 +77,59 @@ export const Hub = () => {
   };
 
   const renderContent = () => {
+    const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true });
+
+    const scrollPrev = useCallback(() => {
+      if (emblaApi) emblaApi.scrollPrev();
+    }, [emblaApi]);
+
+    const scrollNext = useCallback(() => {
+      if (emblaApi) emblaApi.scrollNext();
+    }, [emblaApi]);
+
+    const [canScrollPrev, setCanScrollPrev] = useState(false);
+    const [canScrollNext, setCanScrollNext] = useState(false);
+
+    const onSelect = useCallback(() => {
+      if (!emblaApi) return;
+      setCanScrollPrev(emblaApi.canScrollPrev());
+      setCanScrollNext(emblaApi.canScrollNext());
+    }, [emblaApi]);
+
+    React.useEffect(() => {
+      if (!emblaApi) return;
+      onSelect();
+      emblaApi.on('select', onSelect);
+      return () => emblaApi.off('select', onSelect);
+    }, [emblaApi, onSelect]);
+
     const { title, description, images } = hubData[activeTab];
     return (
       <div>
         <h3 className="text-2xl font-bold text-center mb-2">{t(title)}</h3>
         <p className="text-center text-gray-600 mb-8 max-w-2xl mx-auto">{t(description)}</p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {images.map((image, index) => (
-            <div key={index} className="aspect-[4/5] lg:aspect-[3/4] bg-gray-200 rounded-lg shadow-md overflow-hidden">
-              <img 
-                src={`${import.meta.env.BASE_URL}images/${image}`}
-                alt={`${t(title)} ${index + 1}`}
-                className="w-full h-full object-cover"
-              />
+        <div className="relative">
+          <div className="embla" ref={emblaRef}>
+            <div className="embla__container">
+              {images.map((image, index) => (
+                <div className="embla__slide" key={index}>
+                  <div className="aspect-[4/5] lg:aspect-[16/9] bg-gray-200 rounded-lg shadow-md overflow-hidden mx-2">
+                    <img 
+                      src={`${import.meta.env.BASE_URL}images/${image}`}
+                      alt={`${t(title)} ${index + 1}`}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                </div>
+              ))}
             </div>
-          ))}
+          </div>
+          <button className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-white bg-opacity-75 rounded-full p-2 hover:bg-opacity-100 transition-opacity disabled:opacity-50" onClick={scrollPrev} disabled={!canScrollPrev}>
+            <ChevronLeft size={24} />
+          </button>
+          <button className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-white bg-opacity-75 rounded-full p-2 hover:bg-opacity-100 transition-opacity disabled:opacity-50" onClick={scrollNext} disabled={!canScrollNext}>
+            <ChevronRight size={24} />
+          </button>
         </div>
       </div>
     );
@@ -101,8 +142,8 @@ export const Hub = () => {
         <p className="text-lg text-center text-gray-700 mb-10 max-w-3xl mx-auto">{t('hub.main_subtitle')}</p>
         {renderTabs()}
         {renderContent()}
-        <div className="text-center mt-12">
-          <a href="#contact" className="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full transition duration-300">{t('hub.cta')}</a>
+        <div className="mt-10">
+          <GetInTouchCta context={activeTab === 'events' ? 'events' : activeTab === 'showroom' ? 'showroom' : 'contact'} />
         </div>
       </div>
     </section>

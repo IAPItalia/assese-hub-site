@@ -93,11 +93,24 @@ const resources = {
         "li4": "Adatto a imprese internazionali e PMI italiane che vogliono crescere"
       },
       "contact": {
-        "title": "Contatti",
-        "p1": "ASSESE - Milano (Porta Genova)",
-        "p2": "Email: office@assese.eu",
-        "p3": "Telefono: 00393892865881",
-        "p4": "Visite su appuntamento."
+        "title": "Contattaci",
+        "subtitle": "Hai un progetto o un'idea? Clicca il pulsante qui sotto per inviarci un'email o copiare il nostro indirizzo. Visite solo su appuntamento."
+      },
+      "cta": {
+        "button": "Contattaci",
+        "copy": "Copia",
+        "copied": "Copiato!",
+        "copy_aria_label": "Copia indirizzo email",
+        "subjects": {
+          "contact": "Richiesta informazioni — ASSESE",
+          "events": "Richiesta eventi / disponibilità — ASSESE",
+          "showroom": "Richiesta showroom / locazione — ASSESE"
+        },
+        "bodies": {
+          "contact": "Buongiorno,\n\nSono interessato/a a:\n\nNome:\nOrganizzazione:\nTelefono:\nMessaggio:\n\nGrazie!",
+          "events": "Buongiorno,\n\nSono interessato/a a organizzare un evento:\n\nNome:\nOrganizzazione:\nTelefono:\nPeriodo:\nMessaggio:\n\nGrazie!",
+          "showroom": "Buongiorno,\n\nSono interessato/a allo showroom:\n\nNome:\nOrganizzazione:\nTelefono:\nPeriodo:\nMessaggio:\n\nGrazie!"
+        }
       },
       "footer": {
         "copy": "© 2024 ASSESE Milano. Tutti i diritti riservati.",
@@ -201,11 +214,24 @@ const resources = {
         "li4": "Suitable for international companies and Italian SMEs that want to grow"
       },
       "contact": {
-        "title": "Contact",
-        "p1": "ASSESE - Milan (Porta Genova)",
-        "p2": "Email: office@assese.eu",
-        "p3": "Phone: 00393892865881",
-        "p4": "Visits by appointment."
+        "title": "Get in Touch",
+        "subtitle": "Have a project or an idea? Click the button below to send us an email or copy our address. Visits by appointment only."
+      },
+      "cta": {
+        "button": "Get in touch",
+        "copy": "Copy",
+        "copied": "Copied!",
+        "copy_aria_label": "Copy email address",
+        "subjects": {
+          "contact": "Inquiry — ASSESE",
+          "events": "Events / Availability Inquiry — ASSESE",
+          "showroom": "Showroom / Rental Inquiry — ASSESE"
+        },
+        "bodies": {
+          "contact": "Hello,\n\nI am interested in:\n\nName:\nOrganization:\nPhone:\nMessage:\n\nThank you!",
+          "events": "Hello,\n\nI am interested in organizing an event:\n\nName:\nOrganization:\nPhone:\nPeriod:\nMessage:\n\nThank you!",
+          "showroom": "Hello,\n\nI am interested in the showroom:\n\nName:\nOrganization:\nPhone:\nPeriod:\nMessage:\n\nThank you!"
+        }
       },
       "footer": {
         "copy": "© 2024 ASSESE Milano. All rights reserved.",
@@ -309,11 +335,24 @@ const resources = {
         "li4": "Adecuado para empresas internacionales y pymes italianas que quieren crecer"
       },
       "contact": {
-        "title": "Contacto",
-        "p1": "ASSESE - Milán (Porta Genova)",
-        "p2": "Correo electrónico: office@assese.eu",
-        "p3": "Teléfono: 00393892865881",
-        "p4": "Visitas con cita previa."
+        "title": "Contáctanos",
+        "subtitle": "¿Tienes un proyecto o una idea? Haz clic en el botón de abajo para enviarnos un correo electrónico o copiar nuestra dirección. Visitas solo con cita previa."
+      },
+      "cta": {
+        "button": "Contáctanos",
+        "copy": "Copiar",
+        "copied": "¡Copiado!",
+        "copy_aria_label": "Copiar dirección de correo electrónico",
+        "subjects": {
+          "contact": "Solicitud de información — ASSESE",
+          "events": "Solicitud de eventos / disponibilidad — ASSESE",
+          "showroom": "Solicitud de showroom / alquiler — ASSESE"
+        },
+        "bodies": {
+          "contact": "Hola,\n\nEstoy interesado/a en:\n\nNombre:\nOrganización:\nTeléfono:\nMensaje:\n\n¡Gracias!",
+          "events": "Hola,\n\nEstoy interesado/a en organizar un evento:\n\nNombre:\nOrganización:\nTeléfono:\nPeríodo:\nMensaje:\n\n¡Gracias!",
+          "showroom": "Hola,\n\nEstoy interesado/a en el showroom:\n\nNombre:\nOrganización:\nTeléfono:\nPeríodo:\nMensaje:\n\n¡Gracias!"
+        }
       },
       "footer": {
         "copy": "© 2024 ASSESE Milano. Todos los derechos reservados.",
@@ -417,11 +456,24 @@ const resources = {
         "li4": "Geeignet für internationale Unternehmen und italienische KMU, die wachsen wollen"
       },
       "contact": {
-        "title": "Kontakt",
-        "p1": "ASSESE - Mailand (Porta Genova)",
-        "p2": "E-Mail: office@assese.eu",
-        "p3": "Telefon: 00393892865881",
-        "p4": "Besuche nach Vereinbarung."
+        "title": "Kontaktieren Sie uns",
+        "subtitle": "Haben Sie ein Projekt oder eine Idee? Klicken Sie auf die Schaltfläche unten, um uns eine E-Mail zu senden oder unsere Adresse zu kopieren. Besuche nur nach Vereinbarung."
+      },
+      "cta": {
+        "button": "Kontaktieren Sie uns",
+        "copy": "Kopieren",
+        "copied": "Kopiert!",
+        "copy_aria_label": "E-Mail-Adresse kopieren",
+        "subjects": {
+          "contact": "Anfrage — ASSESE",
+          "events": "Anfrage zu Veranstaltungen / Verfügbarkeit — ASSESE",
+          "showroom": "Anfrage zu Showroom / Miete — ASSESE"
+        },
+        "bodies": {
+          "contact": "Hallo,\n\nIch interessiere mich für:\n\nName:\nOrganisation:\nTelefon:\nNachricht:\n\nDanke!",
+          "events": "Hallo,\n\nIch interessiere mich für die Organisation einer Veranstaltung:\n\nName:\nOrganisation:\nTelefon:\nZeitraum:\nNachricht:\n\nDanke!",
+          "showroom": "Hallo,\n\nIch interessiere mich für den Showroom:\n\nName:\nOrganisation:\nTelefon:\nZeitraum:\nNachricht:\n\nDanke!"
+        }
       },
       "footer": {
         "copy": "© 2024 ASSESE Milano. Alle Rechte vorbehalten.",
@@ -525,11 +577,24 @@ const resources = {
         "li4": "Convient aux entreprises internationales et aux PME italiennes qui veulent se développer"
       },
       "contact": {
-        "title": "Contact",
-        "p1": "ASSESE - Milan (Porta Genova)",
-        "p2": "E-mail : office@assese.eu",
-        "p3": "Téléphone : 00393892865881",
-        "p4": "Visites sur rendez-vous."
+        "title": "Contactez-nous",
+        "subtitle": "Vous avez un projet ou une idée ? Cliquez sur le bouton ci-dessous pour nous envoyer un e-mail ou copier notre adresse. Visites sur rendez-vous uniquement."
+      },
+      "cta": {
+        "button": "Contactez-nous",
+        "copy": "Copier",
+        "copied": "Copié !",
+        "copy_aria_label": "Copier l'adresse e-mail",
+        "subjects": {
+          "contact": "Demande d'informations — ASSESE",
+          "events": "Demande d'événements / disponibilité — ASSESE",
+          "showroom": "Demande de showroom / location — ASSESE"
+        },
+        "bodies": {
+          "contact": "Bonjour,\n\nJe suis intéressé(e) par :\n\nNom :\nOrganisation :\nTéléphone :\nMessage :\n\nMerci !",
+          "events": "Bonjour,\n\nJe suis intéressé(e) par l'organisation d'un événement :\n\nNom :\nOrganisation :\nTéléphone :\nPériode :\nMessage :\n\nMerci !",
+          "showroom": "Bonjour,\n\nJe suis intéressé(e) par le showroom :\n\nNom :\nOrganisation :\nTéléphone :\nPériode :\nMessage :\n\nMerci !"
+        }
       },
       "footer": {
         "copy": "© 2024 ASSESE Milano. Tous droits réservés.",
@@ -573,6 +638,8 @@ const resources = {
         "box1_li2": "Gestionarea corespondenței și prezență profesională",
         "box1_li3": "Suport administrativ și fiscal (cu parteneri)",
         "box1_li4": "Orientare pentru pornire și operațiuni",
+        "box1_li5": "Consultanță pentru plan de afaceri și strategie de piață",
+        "box1_li6": "Acces la o rețea de profesioniști și contacte cheie",
         "box2_title": "Internaționalizare și creștere în Europa",
         "box2_li1": "Căi practice pentru extinderea transfrontalieră",
         "box2_li2": "Evenimente B2B și networking",
@@ -633,11 +700,24 @@ const resources = {
         "li4": "Potrivit pentru companii internaționale și IMM-uri italiene care doresc să crească"
       },
       "contact": {
-        "title": "Contact",
-        "p1": "ASSESE - Milano (Porta Genova)",
-        "p2": "E-mail: office@assese.eu",
-        "p3": "Telefon: la cerere",
-        "p4": "Vizite pe bază de programare."
+        "title": "Contactează-ne",
+        "subtitle": "Ai un proiect sau o idee? Dă clic pe butonul de mai jos pentru a ne trimite un e-mail sau a copia adresa noastră. Vizite doar pe bază de programare."
+      },
+      "cta": {
+        "button": "Contactează-ne",
+        "copy": "Copiază",
+        "copied": "Copiat!",
+        "copy_aria_label": "Copiază adresa de e-mail",
+        "subjects": {
+          "contact": "Cerere de informații — ASSESE",
+          "events": "Cerere evenimente / disponibilitate — ASSESE",
+          "showroom": "Cerere showroom / închiriere — ASSESE"
+        },
+        "bodies": {
+          "contact": "Bună ziua,\n\nSunt interesat(ă) de:\n\nNume:\nOrganizație:\nTelefon:\nMesaj:\n\nMulțumesc!",
+          "events": "Bună ziua,\n\nSunt interesat(ă) de organizarea unui eveniment:\n\nNume:\nOrganizație:\nTelefon:\nPerioadă:\nMesaj:\n\nMulțumesc!",
+          "showroom": "Bună ziua,\n\nSunt interesat(ă) de showroom:\n\nNume:\nOrganizație:\nTelefon:\nPerioadă:\nMesaj:\n\nMulțumesc!"
+        }
       },
       "footer": {
         "copy": "© 2024 ASSESE Milano. Toate drepturile rezervate.",
