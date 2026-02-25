@@ -17,7 +17,7 @@ import { Footer } from './components/Footer';
 
 export default function App() {
   return (
-    <div className="font-sans">
+    <div className="font-sans max-w-full overflow-x-hidden">
       <Header />
       <main>
         <Hero />

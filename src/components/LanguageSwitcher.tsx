@@ -8,6 +8,7 @@ const languages = [
   { code: 'de', name: 'Deutsch' },
   { code: 'fr', name: 'Français' },
   { code: 'ro', name: 'Română' },
+  { code: 'tr', name: 'Türkçe' },
 ];
 
 export const LanguageSwitcher = () => {

@@ -29,10 +29,10 @@ export const Header = () => {
         <div className="hidden md:flex items-center">
           {navLinks}
           <LanguageSwitcher />
-          <a href="#contact" className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-full transition duration-300 ml-4">{t('cta.button')}</a>
+          <a href="#contact" className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-3 md:px-4 text-sm md:text-base rounded-full transition duration-300 ml-4">{t('cta.button')}</a>
         </div>
         <div className="md:hidden flex items-center">
-          <a href="#contact" className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-full transition duration-300">{t('cta.button')}</a>
+          <a href="#contact" className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-3 md:px-4 text-sm md:text-base rounded-full transition duration-300">{t('cta.button')}</a>
           <LanguageSwitcher />
           <button onClick={() => setIsOpen(!isOpen)} className="ml-4">
             {isOpen ? <X size={24} /> : <Menu size={24} />}

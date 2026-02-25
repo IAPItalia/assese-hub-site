@@ -730,6 +730,127 @@ const resources = {
         "cta": "Cere o rezervare"
       }
     }
+  },
+  tr: {
+    translation: {
+      "header": {
+        "home": "Anasayfa",
+        "about": "Hakkımızda",
+        "services": "Hizmetler",
+        "membership": "Üyelik",
+        "hub": "Merkez",
+        "why": "Neden ASSESE",
+        "availability": "Müsaitlik",
+        "contact": "İletişim"
+      },
+      "hero": {
+        "title": "ASSESE: İtalya'da büyümek ve Avrupa'ya açılmak için Milano'daki giriş noktanız.",
+        "subtitle": "Çevik ve çapraz bir hızlandırıcıyız: İtalyan ve uluslararası şirketleri, Porta Genova'da stratejik bir operasyonel alana erişimle somut iş girişi, uluslararasılaşma ve yerelleştirme hizmetleriyle destekliyoruz.",
+        "cta1": "Görüşme Ayarla",
+        "cta2": "ASSESE HUB'ı Keşfet"
+      },
+      "about": {
+        "title": "Hakkımızda",
+        "subtitle": "Çevik bir hızlandırıcı, bir ortak çalışma alanı değil.",
+        "paragraph": "ASSESE - Avrupa Ekonomik ve Sosyal Kalkınma Derneği – şirketlerin, startup'ların ve profesyonellerin bir fikri İtalya'da ve Avrupa bağlamında gerçek bir pazar varlığına dönüştürmelerine yardımcı olmak için doğdu. Çapraz olarak (tasarım, moda, ticaret, hizmetler, teknoloji) faaliyet gösteriyoruz ve pratik bir yaklaşımla çalışıyoruz: bağlantılar, etkinlikler, beceriler, fiziksel alan ve operasyonel destek."
+      },
+      "services": {
+        "title": "Ne Yapıyoruz (Hizmetler)",
+        "box1_title": "İtalya'ya İş Girişi (Milano)",
+        "box1_li1": "Milano'da şirket yerelleştirme",
+        "box1_li2": "Yazışma yönetimi ve profesyonel varlık",
+        "box1_li3": "İdari ve mali destek (ortaklarla)",
+        "box1_li4": "Başlangıç ve operasyonlar için rehberlik",
+        "box2_title": "Avrupa'da Uluslararasılaşma ve Büyüme",
+        "box2_li1": "Sınır ötesi genişleme için pratik yollar",
+        "box2_li2": "B2B etkinlikleri ve ağ oluşturma",
+        "box2_li3": "Tematik atölyeler (ihracat, e-ticaret, sözleşmeler, vergilendirme)",
+        "box2_li4": "Uluslararası bağlantılar (Romanya, İspanya)",
+        "box3_title": "ASSESE HUB – Porta Genova'da Operasyonel Alan",
+        "box3_li1": "140 metrekare modüler açık alan",
+        "box3_li2": "Sokağa bakan 3 vitrin",
+        "box3_li3": "Yükseklik yaklaşık 5m",
+        "box3_li4": "Geçici showroomlar, atölyeler, çekimler, sunumlar, iş etkinlikleri için uygun"
+      },
+      "membership": {
+        "title": "İş Kurma Programı (Üyelik)",
+        "subtitle": "Bu sadece bir adres değil: Milano'ya girmek ve varlığınızı etkinleştirmek için bir operasyonel pakettir.",
+        "plan1_title": "TEMEL",
+        "plan1_li1": "Şirket yerelleştirme",
+        "plan1_li2": "Posta yönetimi",
+        "plan1_li3": "HUB erişimi: 2 saat/ay",
+        "plan1_li4": "Erişim: 1 ağ etkinliği/ay",
+        "plan2_title": "PRO",
+        "plan2_li1": "Tüm TEMEL özellikler",
+        "plan2_li2": "HUB erişimi: 1 gün/ay",
+        "plan2_li3": "Ağ etkinliklerine tam erişim",
+        "plan2_li4": "ASSESE ağında şirket profili (listeleme)",
+        "plan3_title": "BÜYÜME",
+        "plan3_li1": "Tüm PRO özellikler",
+        "plan3_li2": "HUB erişimi: 4 gün/ay",
+        "plan3_li3": "1 üç aylık stratejik oturum (ortakla)",
+        "plan3_li4": "Yerel ağa hedeflenmiş tanıtımlar (müsaitliğe bağlı)",
+        "cta": "Detayları ve müsaitliği isteyin"
+      },
+      "hub": {
+        "main_title": "Merkez Kiralama (Sadece Merkez)",
+        "main_subtitle": "Showroomlar, pop-up'lar, atölyeler, çekimler, kurumsal etkinlikler ve B2B sunumları için ideal, yüksek görünürlüğe sahip profesyonel bir alana ihtiyaç duyanlar için esnek çözümler.",
+        "cta": "Ziyaret Ayırt",
+        "furnished": {
+          "title": "Mobilyalı",
+          "description": "İş toplantıları, danışmanlık veya geçici bir operasyonel üs olarak tamamen mobilyalı, kullanıma hazır alan."
+        },
+        "unfurnished": {
+          "title": "Mobilyasız",
+          "description": "İhtiyaçlarınıza göre özelleştirebileceğiniz boş bir tuval, fotoğraf çekimleri, yaratıcı atölyeler veya özel etkinlikler için ideal."
+        },
+        "showroom": {
+          "title": "Showroom",
+          "description": "Ürünlerinizi ve koleksiyonlarınızı Milano'nun stratejik bir bölgesinde sergilemek için sokağa bakan vitrinli sergi alanı."
+        },
+        "events": {
+          "title": "Etkinlikler",
+          "description": "Ağ etkinlikleri, ürün lansmanları, kurumsal sunumlar ve B2B toplantıları için çok yönlü bir mekan."
+        }
+      },
+      "why": {
+        "title": "Neden ASSESE",
+        "li1": "Çalışmak, buluşmak ve sunum yapmak için Milano'da tek bir üs",
+        "li2": "Yerelleştirme + fiziksel alan + ağ oluşturma, aynı ekosistemde",
+        "li3": "Çevik yaklaşım: hızlı zamanlar, pratik çözümler, gerçek bağlantılar",
+        "li4": "Büyümek isteyen uluslararası şirketler ve İtalyan KOBİ'leri için uygun"
+      },
+      "contact": {
+        "title": "İletişime Geçin",
+        "subtitle": "Bir projeniz veya bir fikriniz mi var? Bize bir e-posta göndermek veya adresimizi kopyalamak için aşağıdaki düğmeyi tıklayın. Ziyaretler sadece randevu ile."
+      },
+      "cta": {
+        "button": "İletişime Geçin",
+        "copy": "Kopyala",
+        "copied": "Kopyalandı!",
+        "copy_aria_label": "E-posta adresini kopyala",
+        "subjects": {
+          "contact": "Bilgi Talebi — ASSESE",
+          "events": "Etkinlik / Müsaitlik Talebi — ASSESE",
+          "showroom": "Showroom / Kiralama Talebi — ASSESE"
+        },
+        "bodies": {
+          "contact": "Merhaba,\n\nİlgileniyorum:\n\nİsim:\nKuruluş:\nTelefon:\nMesaj:\n\nTeşekkürler!",
+          "events": "Merhaba,\n\nBir etkinlik düzenlemekle ilgileniyorum:\n\nİsim:\nKuruluş:\nTelefon:\nDönem:\nMesaj:\n\nTeşekkürler!",
+          "showroom": "Merhaba,\n\nShowroom ile ilgileniyorum:\n\nİsim:\nKuruluş:\nTelefon:\nDönem:\nMesaj:\n\nTeşekkürler!"
+        }
+      },
+      "footer": {
+        "copy": "© 2024 ASSESE Milano. Tüm hakları saklıdır.",
+        "email": "E-posta: office@assese.eu",
+        "phone": "Telefon: 00393892865881",
+        "visits": "Ziyaretler randevu ile."
+      },
+      "availability": {
+        "title": "ASSESE HUB Müsaitliği",
+        "cta": "Rezervasyon Talep Et"
+      }
+    }
   }
 }
 
